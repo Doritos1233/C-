@@ -1,0 +1,34 @@
+namespace ConsoleApp2
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("PROGRAM DODAWAJĄCY WSZYSTKIE LICZBY KTÓRE WPISZESZ");
+            Console.Write($"Wpisz liczbę: ");
+            int TwojaLiczba2 = int.Parse(Console.ReadLine());
+            int suma = 0;
+
+            while (TwojaLiczba2 > 0 || TwojaLiczba2 < 0)
+            {
+                Console.Write($"Wpisz liczbę: ");
+                TwojaLiczba2 = int.Parse(Console.ReadLine());
+
+                if (TwojaLiczba2 > 0)
+                {
+                    suma += TwojaLiczba2;
+                }
+                else if (TwojaLiczba2 < 0)
+                {
+                    suma += TwojaLiczba2;
+                }
+                else
+                {
+                    Console.WriteLine($"Twoja suma wszystkich liczb: {suma}");
+                    break;
+                }
+            }
+        }   
+    }
+}
