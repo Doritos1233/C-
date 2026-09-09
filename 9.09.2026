@@ -1,0 +1,42 @@
+namespace 9.09.2026
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Random r = new Random();
+            int liczba = r.Next(100);
+
+            Console.WriteLine($"Program do zgadywania liczby 0 - 100");
+            int TwojaLiczba = -1;
+            Console.WriteLine($"{liczba}");
+
+            for (int proba =0; TwojaLiczba != liczba; proba++)
+            {
+                Console.Write($"Wpisz liczbe: ");
+                TwojaLiczba = int.Parse(Console.ReadLine());
+
+
+                if (TwojaLiczba > liczba)
+                {
+                    Console.WriteLine($"twoja liczba jest większa od liczby wygenerowanej");
+                }
+                else if (TwojaLiczba < liczba)
+                {
+                    Console.WriteLine($"twoja liczba jest mniejsza od liczby wygenerowanej");
+                }
+                else if(TwojaLiczba == liczba)
+                {
+                    Console.WriteLine($"BRAWO ZGADŁEŚ LICZBĘ " + $"próba: {proba}");
+                }
+                else
+                {
+                    Console.WriteLine($"NIE POPRAWNA LICZBA");
+                    break;
+                }
+                
+            }
+        }
+    }
+}
