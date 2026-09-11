@@ -1,0 +1,22 @@
+Console.WriteLine("PROGRAM DO LICZENIA SAMOGŁOSEK W TEKŚCIE");
+Console.Write($"wpisz swój tekst: ");
+string text = Console.ReadLine();
+int length = text.Length;
+int samogloski = 0;
+
+for (int i = 0; i < length; i++)
+{
+    switch (text[i])
+    {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'y':
+            samogloski++;
+            break;
+
+    }
+}
+Console.WriteLine($"tyle samoglosek {samogloski}");
