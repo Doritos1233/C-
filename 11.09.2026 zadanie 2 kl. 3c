@@ -1,0 +1,24 @@
+Console.WriteLine("PROGRAM SPRAWDZAJACY CZY TEKST JEST PALINDROMEM");
+Console.Write($"podaj swój palindrom: ");
+string text = Console.ReadLine();
+int lewy = 0;
+int prawy = text.Length - 1;
+bool czyPalindrom = true;
+
+while (lewy < prawy)
+{
+    if (text[lewy] != text[prawy])
+    {
+        czyPalindrom = false;
+    }
+    lewy++;
+    prawy--;
+}
+if (czyPalindrom)
+{
+    Console.WriteLine($"Twoj tekst jest palindromem: {text}");
+}
+else
+{
+    Console.WriteLine("twoj tekst nie jest palindromem");
+}
