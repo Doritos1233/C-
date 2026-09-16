@@ -1,0 +1,29 @@
+Console.WriteLine("PROGRAM WYKONUJACY TABLICZKE MNOZENIA");
+Console.Write("na ile liczb ma byc tabelka: ");
+int ileLiczb = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"twoja tabliczka bedzie {ileLiczb,2}");
+Console.Write("  x | ");
+
+for (int y = 1; y <= ileLiczb; y++)
+{
+    if (y == 1)
+    {
+        for (int x = 1; x <= ileLiczb; x++)
+        {
+            Console.Write($"{x,3} | ");
+        }
+        Console.WriteLine();
+        for (int s = 0; s <= ileLiczb * 2; s++)
+        {
+            Console.Write(" - ");
+        }
+        Console.WriteLine();
+    }
+    Console.Write($"{y,3} | ");
+    for (int x = 1; x <= ileLiczb; x++)
+    {
+        Console.Write($"{x * y,3} | ");
+    }
+    Console.WriteLine();
+}
