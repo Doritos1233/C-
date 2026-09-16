@@ -1,0 +1,21 @@
+//macierz
+
+int[,] macierz = new int[10, 10];
+int counter = 1;
+for (int i = 0; i < 10; i++)
+{
+    for (int j = 0; j < 10; j++)
+    {
+        //macierz[i, j] = (i + 1) * (j + 1);
+        //macierz[i, j] = counter++;
+        macierz[j, i] = counter++;
+    }
+}
+for (int i = 0; i < 10; i++)
+{
+    for (int j = 0; j < 10; j++)
+    {
+        Console.Write($"{macierz[i, j],4}");
+    }
+    Console.WriteLine($"");
+}
