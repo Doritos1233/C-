@@ -1,0 +1,37 @@
+namespace ConsoleApp4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // początek
+            Console.WriteLine("PROGRAM WYPEŁNIAJACY TABLICE PRZEZ UZYTKOWNIKA I SZUKAJACA MIN I MAX");
+            Console.Write($"Wpisz rozmiar tablicy: ");
+            int rozmiar = int.Parse(Console.ReadLine()); //rozmiar tablicy
+
+            // pętla z danymi od użytkownika
+            int[] tab = new int[rozmiar];
+            for (int i = 0; i < rozmiar; i++)
+            {
+                Console.Write($"Wpisz liczbę: ");
+                int liczba = int.Parse(Console.ReadLine()); //uzytkownik liczby
+                int dodaj = tab[i] = liczba;
+            }
+
+            // tablica stworzona przez użytkownika
+            Console.WriteLine();
+            Console.Write($"Twoja tablica: ");
+            foreach (int x in tab)
+            {
+                Console.Write($"{x}, "); // tablica z wynikami
+            }
+
+            // min max average
+            Console.WriteLine();
+            int min = tab.Min();
+            int max = tab.Max();
+            double sred_aryt = tab.Average();
+            Console.WriteLine($"Wartość min: {min}      Wartość max: {max}      Średnia arytmetyczna: {sred_aryt}");
+        }
+    }
+}
