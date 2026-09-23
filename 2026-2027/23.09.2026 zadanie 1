@@ -24,15 +24,14 @@ namespace ConsoleApp1
                 }
             }
 
-            Console.WriteLine();
             double min = 99999999, max = 0;
             for (int i = 0; i < liczba_ucz; i++)
             {
+                Console.WriteLine();
                 int liczba_ocen_ucz = oceny[i].Length;
                 double srednia = 0;
                 for (int j = 0; j < liczba_ocen_ucz; j++)
                 {
-                    Console.WriteLine();
                     srednia += oceny[i][j];
                 }
                 srednia /= liczba_ocen_ucz;
