@@ -1,0 +1,43 @@
+using System.Threading.Channels;
+
+namespace ConsoleApp6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // program do tworzenia zadania do zrobienia (ToDo)
+
+            List<string> task = new List<string>();
+            bool running = true;
+            while (running)
+            {
+                Console.WriteLine("\n 1. Dodaj | 2. Pokaż | 3. Usuń | 4. Zakończ \n");
+                string menu = Console.ReadLine();
+                switch (menu)
+                {
+                    case "1":
+                        Console.WriteLine("\n Dodaj element: ");
+                        task.Add(Console.ReadLine());
+                        break;
+                    case "2":
+                        Console.WriteLine();
+                        for (int i = 0; i < task.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}. {task[i]}");
+                        }
+                        break;
+                    case "3":
+                        Console.Write("Podaj nuer do usunięcia: ");
+                        int index = int.Parse(Console.ReadLine()) - 1;
+                        if (index >= 0 && index < task.Count)
+                            task.RemoveAt(index);
+                        break;
+                    case "4":
+                        running = false;
+                        break;
+                }
+            }
+        }
+    }
+}
