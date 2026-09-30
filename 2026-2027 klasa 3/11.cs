@@ -1,0 +1,23 @@
+namespace 11
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // losowanie ucznia do odpowiedzi
+            List<string> student = new List<string>() { "Adam", "Ewa", "Kamil", "Artem", "Oliwer" };
+            Random random = new Random();
+            int index = 0;
+
+            Console.WriteLine("Rozpoczynamy odpytywanie!\n");
+            while (student.Count > 0)
+            {
+            index++;
+            int randomIndex = random.Next(student.Count);
+            student[randomIndex].ToString();
+            Console.WriteLine($"{index} uczen: {student[randomIndex]}");
+            student.RemoveAt(randomIndex);
+            }
+        }
+    }
+}

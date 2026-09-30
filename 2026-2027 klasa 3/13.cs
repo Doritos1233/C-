@@ -1,4 +1,4 @@
-namespace ConsoleApp8
+namespace 13
 {
     internal class Program
     {
@@ -10,7 +10,15 @@ namespace ConsoleApp8
             for (int i = 0; i < 5; i++)
             {
                 Console.Write("imie ucznia: ");
-                string imie = Console.ReadLine();
+                string imie = Console.
+                
+                
+                
+                
+                
+                
+                
+                ReadLine();
 
                 Console.Write("ile ocen ma uczeń: ");
                 int liczba_ocen = int.Parse(Console.ReadLine());

@@ -1,6 +1,6 @@
 using System.Threading.Channels;
 
-namespace ConsoleApp6
+namespace 09
 {
     internal class Program
     {

@@ -1,5 +1,4 @@
-namespace 9.09.2026
-
+namespace 01
 {
     internal class Program
     {
@@ -35,7 +34,6 @@ namespace 9.09.2026
                     Console.WriteLine($"NIE POPRAWNA LICZBA");
                     break;
                 }
-                
             }
         }
     }

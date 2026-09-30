@@ -1,4 +1,4 @@
-namespace ConsoleApp4
+namespace 07
 {
     internal class Program
     {
