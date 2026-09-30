@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\Phonebook_Management_Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83F553BD-34BD-4B91-9980-C4F6D7005405}|Phonebook_Management_Program\\Phonebook_Management_Program.csproj|c:\\users\\dorit\\onedrive\\desktop\\wszystko\\vs\\phonebook_management_program\\phonebook_management_program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F553BD-34BD-4B91-9980-C4F6D7005405}|Phonebook_Management_Program\\Phonebook_Management_Program.csproj|solutionrelative:phonebook_management_program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\Phonebook_Management_Program\\Phonebook_Management_Program\\Program.cs",
+              "RelativeDocumentMoniker": "Phonebook_Management_Program\\Program.cs",
+              "ToolTip": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\Phonebook_Management_Program\\Phonebook_Management_Program\\Program.cs",
+              "RelativeToolTip": "Phonebook_Management_Program\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:50:24.027Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

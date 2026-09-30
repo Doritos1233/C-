@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\player_bag\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{751F62F6-39C6-4F66-B2F6-9EA5FE28D3A3}|player_bag\\player_bag.csproj|c:\\users\\dorit\\onedrive\\desktop\\wszystko\\vs\\player_bag\\player_bag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751F62F6-39C6-4F66-B2F6-9EA5FE28D3A3}|player_bag\\player_bag.csproj|solutionrelative:player_bag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\player_bag\\player_bag\\Program.cs",
+              "RelativeDocumentMoniker": "player_bag\\Program.cs",
+              "ToolTip": "C:\\Users\\dorit\\OneDrive\\Desktop\\wszystko\\vs\\player_bag\\player_bag\\Program.cs",
+              "RelativeToolTip": "player_bag\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:22:57.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

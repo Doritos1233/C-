@@ -1,0 +1,15 @@
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\bin\Debug\net10.0\player_bag.exe
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\bin\Debug\net10.0\player_bag.deps.json
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\bin\Debug\net10.0\player_bag.runtimeconfig.json
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\bin\Debug\net10.0\player_bag.dll
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\bin\Debug\net10.0\player_bag.pdb
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.AssemblyInfoInputs.cache
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.AssemblyInfo.cs
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.csproj.CoreCompileInputs.cache
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.dll
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\refint\player_bag.dll
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.pdb
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.genruntimeconfig.cache
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\ref\player_bag.dll
+C:\Users\dorit\OneDrive\Desktop\wszystko\vs\player_bag\player_bag\obj\Debug\net10.0\player_bag.csproj.Up2Date
