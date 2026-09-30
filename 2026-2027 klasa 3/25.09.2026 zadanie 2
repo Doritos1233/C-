@@ -1,0 +1,33 @@
+// Ekwipunek bohatera
+
+List<string> bag = new List<string>();
+int capacity = 5;
+while (true)
+{
+    Console.WriteLine($"\nMiejsce w plecaku {bag.Count} / {capacity}");
+    Console.WriteLine("Polecenia: EXIT, SORT");
+    Console.Write("Akcja: ");
+    string command = Console.ReadLine().ToUpper();
+
+    if (command == "EXIT") break;
+    if (command == "SORT")
+    {
+        bag.Sort();
+        Console.WriteLine("Ekwipunek został posortowany!");
+        continue;
+    }
+
+    if (bag.Contains(command))
+    {
+        Console.WriteLine("Już masz ten przedmiot!");
+    }
+    else if (bag.Count < capacity)
+    {
+        bag.Add(command);
+        Console.WriteLine($"Podniesiono: {command}");
+    }
+    else
+        Console.WriteLine("Twoja torba jest pełna!");
+}
+Console.WriteLine($"Zawartość eq:");
+foreach (string item in bag) Console.WriteLine($"- {item}");
